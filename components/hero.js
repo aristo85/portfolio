@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Hero(props) {
-
     return (
         <div>
             <header className={props.hero}>{props.children}</header>
@@ -9,15 +8,9 @@ function Hero(props) {
 .defaultHero, .roomsHero {
     background: url('background.jpeg') center center fixed; 
   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .roomsHero {
     background-image: url('images/room-2.jpeg');

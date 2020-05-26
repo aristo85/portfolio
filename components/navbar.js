@@ -10,23 +10,23 @@ const NavBar = (props) => {
         <div className="stickIt"
         >
             <Navbar color="dark" dark  expand="sm">
-            <NavbarBrand href="/">PORTFOLIO</NavbarBrand>
+            <NavbarBrand href="/">ПОРТФОЛИО</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
                             <NavLink className="text-white" href="/project">
-                                Projects
+                                Проекты
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="text-white" href="/resume">
-                                Resume
+                                Резюме
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="text-white" href="/contact">
-                                Contact
+                                Контакты
                             </NavLink>
                         </NavItem>
                     </Nav>
