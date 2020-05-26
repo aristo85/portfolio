@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #af9a7d;
+    --mainWhite: #fff;
+    --offWhite: #f7f7f7;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --darkGrey: #cfcfcf;
+    --mainTransition: all 0.3s linear;
+    --mainSpacing: 3px;
+    --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* globals */
+body {
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+}
+/* end of globals */
+/* Navbar */
+.stickIt {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    height: 8vh
+}
+/* end of navbar */
+/* Hero */
+.defaultHero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.roomsHero,
+.singleRoomsHero{
+    min-height: 80vh;
+}
+
+.stars {
+    z-index: -1;
+}
+#ball {
+    width: 3px;
+    height: 3px;
+    /*position: fixed;*/
+    border-radius: 50%;
+    background: white;
+    /*animation-duration: 1s;*/
+    animation-iteration-count: infinite;
+    animation-name: fade;
+    animation-timing-function: linear;
+}
+
+@keyframes fade {
+    50% {
+        transform: scale(0.5);
+        /*opacity:0.5;*/
+    }
+}
+/* End of Hero */
+/* Banner */
+.banner {
+    z-index: 1;
+}
+.avatar-img {
+    height: 250px;
+    /*padding-top: 5em;*/
+    border-radius: 50%;
+}
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p {
+    color: white;
+    font-size: large;
+    padding: 1em;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 8vw;
+    padding: 6px;
+}
