@@ -178,24 +178,7 @@ body {
     transition: var(--mainTransition);
     height: 10vh;
 }
-.price-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    color: var(--mainWhite);
-    padding: 0.3rem 0.6rem 0.5rem;
-    border-bottom-right-radius: 1rem;
-    font-size: 0.5rem;
-    text-align: center;
-    transition: var(--mainTransition);
-}
-.price-top h6 {
-    margin-bottom: 0;
-    font-size: 0.9rem;
-    font-weight: 300;
-    letter-spacing: var(--mainSpacing);
-}
+
 .room-link {
     position: absolute;
     top: 50%;
@@ -223,4 +206,78 @@ body {
     font-weight: 700;
     letter-spacing: var(--mainSpacing);
 }
+
 /* end of room  */
+
+.social {
+    margin: auto;
+    font-size: 4vmax;
+}
+.contact-feature{
+    background: lightsteelblue;
+}
+
+/*contacts page*/
+.contact-body {
+    margin: auto;
+    background: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    z-index: -1;
+}
+.contact-layout {
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    background: white;
+    color: black;
+    border: 2px solid red;
+    margin-top: 8vh;
+}
+.contact-layout img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.contact-layout i {
+    font-size: 4vmax;
+}
+.contact-layout p {
+    font-size: 2vmax;
+}
+/*resume page*/
+.resume-right-col {
+    background: #27221f;
+    color: white;
+    padding: 2em;
+}
+.text-left h5 {
+    display: inline;
+}
+/*mobile responsive*/
+@media only screen and (max-width: 450px) {
+    .banner-text h1 {
+        font-size: 8vw;
+    }
+    .contact-layout p {
+        /*transform: scale(0.75);*/
+    }
+    h2, h3, h4, h5 {
+        transform: scale(0.75);
+    }
+    .education h4, .experience h4 {
+        display: inline;
+        font-size: large;
+    }
+    .skills p, .education p {
+        text-align: start;
+    }
+
+}
+

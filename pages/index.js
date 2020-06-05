@@ -4,6 +4,7 @@ import Banner from "../components/banner";
 import {Col} from "reactstrap";
 import Link from "next/link";
 import Projects from '../components/projects';
+import Contact from "../components/contacts";
 
 const technologies = "HTML/CSS | Bootstrap | JavaScript | React | Redux | MongoDB | Express | Node | Jquery | D3.js";
 
@@ -29,7 +30,7 @@ export default function Home() {
               </Col>
           </Hero>
           <Projects/>
-
+          <Contact/>
       </div>
   )
 }

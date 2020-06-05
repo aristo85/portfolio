@@ -36,8 +36,8 @@ function Index(props) {
 
 
     return (
-        <section className="featured-rooms">
-            <Title title="My projects" />
+        <section className="featured-rooms projects">
+            <Title title="Проекты" />
             <div className="section-title">
                 <div className="mt-n4 mb-n2" />
             </div>
