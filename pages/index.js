@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import Banner from "../components/banner";
 import {Col} from "reactstrap";
 import Link from "next/link";
+import Projects from '../components/projects';
 
 const technologies = "HTML/CSS | Bootstrap | JavaScript | React | Redux | MongoDB | Express | Node | Jquery | D3.js";
 
@@ -22,11 +23,12 @@ export default function Home() {
                   <img
                       src="/cover.jpg"
                       alt="avatar"
-                      className="avatar-img"
+                      className="avatar-img mt-5"
                   />
-                  <Banner title="Веб-разработчик Full stack" subtitle={technologies} />
+                  <Banner title="Веб-разработчик Full-stack" subtitle={technologies} />
               </Col>
           </Hero>
+          <Projects/>
 
       </div>
   )
