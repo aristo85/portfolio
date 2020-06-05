@@ -11,7 +11,7 @@ class Contact extends Component {
                 <div className="section-title">
                     <div className="mt-n4 mb-n2" />
                 </div>
-                <ListGroup className="w-50">
+                <ListGroup className="w-100">
                     <ListGroupItem color="info">
                         <Row >
                             <Col xs="3" className="social"><FaPhoneSquareAlt/></Col>
