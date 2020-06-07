@@ -232,8 +232,8 @@ body {
     .banner-text h1 {
         font-size: 8vw;
     }
-    .contact-layout p {
-        /*transform: scale(0.75);*/
+    .contact-layout {
+        margin-top: 9vh;
     }
     h2, h3, h4, h5 {
         transform: scale(0.75);
