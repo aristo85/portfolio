@@ -281,7 +281,7 @@ body {
     border-radius: 20%;
 }
 /*mobile responsive*/
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     .banner-text h1 {
         font-size: 8vw;
     }
