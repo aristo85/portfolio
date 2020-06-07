@@ -288,6 +288,9 @@ body {
     .contact-layout {
         margin-top: 10vmax;
     }
+    .contact-layout p{
+        transform: scale(1.5);
+    }
     h2, h3, h4, h5 {
         transform: scale(0.75);
     }
