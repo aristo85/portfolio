@@ -6,7 +6,7 @@ import { FaPhoneSquareAlt, FaEnvelopeSquare, FaSkype, FaFacebookSquare, FaVk } f
 class Contact extends Component {
     render() {
         return (
-            <div>
+            <div className="contactpage">
                 <div className="contact-body" />
                 <Container className="contact-layout">
                     <Row xs="1" md="2">
