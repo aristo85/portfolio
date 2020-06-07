@@ -22,7 +22,7 @@ export default function Home() {
           <Hero>
               <Col className="text-center">
                   <img
-                      src="/profileImage.jpg"
+                      src="/cover.jpg"
                       alt="avatar"
                       className="avatar-img mt-5"
                   />
