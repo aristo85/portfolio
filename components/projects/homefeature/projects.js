@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Title from "./title";
+import Title from "../../title";
 import Project from "./poject";
 
 function Index(props) {

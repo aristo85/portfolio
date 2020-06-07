@@ -31,8 +31,8 @@ class Contact extends Component {
                         </Row>
                     </ListGroupItem>
                 </ListGroup>
-                <p className="container text-center">Если вам нравится мои работы и у вас есть идея проекта,
-                    звоните! илисвяжитесь со мной через социальные сайты, перечисленные ниже.</p>
+                <p className="container text-center">Если вам нравятся мои работы и у вас есть идея проекта,
+                    позвоните мне! или свяжитесь со мной через социальные сайты, перечисленные ниже.</p>
                 <div className="container social text-center">
                     <a href="https://www.facebook.com/ari.rahim.56"
                        rel="noopener noreferrer" target="_blank">

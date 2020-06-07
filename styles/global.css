@@ -168,14 +168,16 @@ body {
 .room:hover {
     box-shadow: var(--darkShadow);
 }
-
+.project-feature-container {
+    position: relative;
+    transition: var(--mainTransition);
+}
 .img-container {
     position: relative;
 }
 .img-container img {
     width: 100%;
     display: block;
-    transition: var(--mainTransition);
     height: 10vh;
 }
 
@@ -186,16 +188,13 @@ body {
     transform: scale(0);
     transition: all 0.3s linear;
 }
-.img-container:hover {
+.project-feature-container:hover {
     background: rgba(0, 0, 0, 0.8);
 }
-.img-container:hover img {
+.project-feature-container:hover img {
     opacity: 0.3;
 }
-.img-container:hover .price-top {
-    opacity: 0;
-}
-.img-container:hover .room-link {
+.project-feature-container:hover .room-link {
     transform: translate(-50%, -50%) scale(1);
 }
 .room-info {
