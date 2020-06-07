@@ -25,7 +25,7 @@ const NavBar = (props) => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="text-white" href="/contact">
+                            <NavLink className="text-white" href="/contacts">
                                 Контакты
                             </NavLink>
                         </NavItem>

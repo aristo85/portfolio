@@ -10,13 +10,8 @@ import {useRouter} from "next/router";
 
 function ControlledTabs() {
     const router = useRouter();
-    const [key, setKey] = useState('MERN');
-
-    useEffect(() => {
-        if(router.query.name) {
-            setKey(router.query.name);
-        }
-    });
+    const tabName = router.query.name ? router.query.name : 'MERN';
+    const [key, setKey] = useState(tabName);
 
     return (
         <div style={{marginTop: '8vh'}}>

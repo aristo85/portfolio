@@ -26,7 +26,7 @@ export default function Home() {
                       alt="avatar"
                       className="avatar-img mt-5"
                   />
-                  <Banner title="Веб-разработчик Full-stack" subtitle={technologies} />
+                  <Banner title="Веб-разработчик" subtitle={technologies} />
               </Col>
           </Hero>
           <Projects/>

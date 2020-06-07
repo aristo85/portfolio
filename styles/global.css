@@ -218,41 +218,6 @@ body {
 .back {
     background: #af9a7d;
 }
-
-/*contacts page*/
-.contact-body {
-    margin: auto;
-    background: gray;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    padding-top: 2em;
-    z-index: -1;
-}
-.contact-layout {
-    text-align: center;
-    justify-content: center;
-    width: 90%;
-    height: 100%;
-    background: white;
-    color: black;
-    border: 2px solid red;
-    margin-top: 8vh;
-}
-.contact-layout img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-}
-.contact-layout i {
-    font-size: 4vmax;
-}
-.contact-layout p {
-    font-size: 2vmax;
-}
 /*resume page*/
 .resume-right-col {
     background: #27221f;
@@ -283,3 +248,55 @@ body {
 
 }
 
+/**contacts page*!*/
+.contact-body {
+    margin: auto;
+    background: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    z-index: -1;
+}
+.contact-layout {
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    background: white;
+    color: black;
+    border: 2px solid red;
+    margin-top: 9vh;
+}
+.contact-layout img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.contact-layout i {
+    font-size: 4vmax;
+}
+.contact-layout p {
+    font-size: 2vmax;
+}
+
+/*resume page*/
+.resume {
+    margin-top: 8vh;
+}
+.resume-right-col {
+    background: #27221f;
+    color: white;
+    padding: 2em;
+}
+.text-left h5 {
+    display: inline;
+}
+.resume-img {
+    height: 250px;
+    margin-top: 55px;
+    border-radius: 20%;
+}

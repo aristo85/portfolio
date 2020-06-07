@@ -6,27 +6,27 @@ function Index(props) {
     const [projects, setServices] = useState([
         {
             title: "MERN",
-            info: 'full stack projects with MongoDB, Express, React and Node.js',
+            info: 'Проекты с использованием: MongoDB, Express, React-Redux и Node.js',
             bgimg: '/mern.jpg'
         },
         {
             title: "Next.js",
-            info: 'server-side rendering and static web applications with Next.js javaScript framework using React',
+            info: 'Проекты с Next.js (server-side rendering and static web applications with Next.js javaScript framework using React)',
             bgimg: '/Nextjs.jpg'
         },
         {
             title: "React-Redux",
-            info: 'projects for building user interfaces with JavaScript library of React and Redux for managing the state of application',
+            info: ' проекты по созданию UI с React-Redux (building user interfaces with JavaScript library of React, and Redux for managing the state of application)',
             bgimg: '/reactRedux.jpg'
         },
         {
             title: "Jquery",
-            info: 'some projects with JavaScript library (Jquery)',
+            info: 'некоторые проекты с Jquery (JavaScript-библиотека)',
             bgimg: '/jquery.png'
         },
         {
             title: "D3.js",
-            info: 'projects of data visualization skills using Scalable Vector Graphics (SVG) by D3.js',
+            info: 'проекты навыков визуализации данных с использованием Scalable Vector Graphics (SVG) от D3.js',
             bgimg: '/d3js.jpg'
         }
     ]);
