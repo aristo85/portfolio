@@ -6,7 +6,7 @@ import Link from "next/link";
 import Projects from '../components/projects/homefeature/projects';
 import Contact from "../components/contacts";
 
-const technologies = "HTML/CSS | Bootstrap | JavaScript | React | Redux | MongoDB | Express | Node | Jquery | D3.js";
+const technologies = "HTML/CSS | Bootstrap | JavaScript | React | React Native | Redux | MongoDB | Node/Express | Jquery | D3.js";
 
 export default function Home() {
     let i;
