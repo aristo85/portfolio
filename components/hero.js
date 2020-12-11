@@ -2,8 +2,8 @@ import React from 'react';
 
 function Hero(props) {
     return (
-        <div>
-            <header className={props.hero}>{props.children}</header>
+        <div className={props.hero}>
+            <header className="priority" >{props.children}</header>
             <style jsx>{`
 .defaultHero, .roomsHero {
     background: url('background.jpeg') center center fixed; 

@@ -67,6 +67,10 @@ body {
         /*opacity:0.5;*/
     }
 }
+.priority {
+    position: relative;
+    z-index: +1;
+}
 /* End of Hero */
 .avatar-img {
     /*margin: auto;*/
@@ -172,6 +176,10 @@ body {
     position: relative;
     transition: var(--mainTransition);
 }
+.projects {
+    position: relative;
+    z-index: +1;
+}
 .img-container {
     position: relative;
 }
@@ -214,6 +222,8 @@ body {
 }
 .contact-feature{
     background: lightsteelblue;
+    position: relative;
+    z-index: +1;
 }
 .back {
     background: #af9a7d;

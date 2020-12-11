@@ -1,0 +1,22 @@
+{
+  "mern-1": "A prototype travel site, it's main function is to act as an agent, selling travel products and services on behalf of a supplier.",
+  "mern-2": "A simple shopping list, the main aim to demonstrate connection between, client side and backend, and deployment on Heroku.",
+  "next-1": "CRUD operations full stack with Mongo",
+  "next-2": "full functional Beach-Resort website",
+  "react-1": "Cart of online-shop page with discount on PROMOCODE",
+  "react-2": "CRUD operation on a list of book from an API with Axios",
+  "react-3": "Virtual prototype of Drum.",
+  "react-4": "Made with marked.js library.",
+  "d3-1": "Representing the educational attainment by county in the US.",
+  "d3-2": "Monthly global temperature from 1753 to 2015 represented as a heat map",
+  "d3-3": "Graph representing Doping in Professional Bicycle Racing",
+  "d3-4": "Representing the evolution of the US GDP",
+  "express-1": "A FreeCodeCamp project of API and Microservices certificate, with Express and MongoDB.",
+  "express-2": "Made with Express and MongoDB, it checks validation of a URL and save it in a shorter format in DB.",
+  "express-3": "Simple RESTful API, with only Express.",
+  "jquery-1": "A clock timer with a task list integration",
+  "jquery-2": "Virtual calculator with its usual features.",
+  "jquery-3": "Using wiki api, to build a search engine viewer based on Wikipedia.",
+  "jquery-4": "Google Maps API to geocode user search terms, then data was retrieved from the Forecast IO API.",
+  "jquery-5": "Written using quote API. Twitter social integration is then included to allow users to tweet it."
+}

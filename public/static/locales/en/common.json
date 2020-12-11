@@ -1,0 +1,11 @@
+{
+  "h1": "Full stack developer",
+  "projects": "Projects",
+  "mern": "Projects created using: MongoDB, Express, React-Redux and Node.js",
+  "nextjs": "Server side rendering and static web application with Next.js frame work of React",
+  "react-redux": "building user interfaces with JavaScript library of React, and Redux for managing the state of application",
+  "jquery": "Sample projects created with jQuery JavaScript Library",
+  "d3": " Using D3 JavaScript library for visualizing data with HTML, SVG, and CSS.",
+  "message": "If you like my work and have project Idea to work on, just send me direct message! or get in touch through social sites listed below.",
+  "contacts": "Contacts"
+}
