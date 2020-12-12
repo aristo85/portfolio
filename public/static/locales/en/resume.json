@@ -1,0 +1,19 @@
+{
+  "h2": "Ari Rahim",
+  "title": "Programmer",
+  "about": "Full-Stack fan. My previous career as a university lecturer in electronics and computer science at Halabja University showed my strong interest in mechanical processes, problem solving and creating quality products through teamwork. I specialize in HTML, CSS, JavaScript and React on the front-end as well as Node/Express and Mongo on the server to build beautiful and secure apps.",
+  "address": "Address",
+  "addrText": "21/2 Usova, Tomsk, Russia",
+  "phone": "Phone",
+  "email": "Email",
+  "education": "Education",
+  "university": "Tomsk Polytechnic University",
+  "degree": "bachelor's and master's degrees in electronics and microelectronics.",
+  "experince": "Experience",
+  "company": "Halabja University",
+  "position": "University Lecturer in electronics and computer science",
+  "subject1": "Theory of electricity and magnetism for the Faculty of Physics",
+  "subject2": "Information technology",
+  "subject3": "Head of the Electronics Laboratory (2014 - 2015)",
+  "skills": "Skills"
+}

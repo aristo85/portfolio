@@ -18,5 +18,7 @@
   "jquery-2": "Virtual calculator with its usual features.",
   "jquery-3": "Using wiki api, to build a search engine viewer based on Wikipedia.",
   "jquery-4": "Google Maps API to geocode user search terms, then data was retrieved from the Forecast IO API.",
-  "jquery-5": "Written using quote API. Twitter social integration is then included to allow users to tweet it."
+  "jquery-5": "Written using quote API. Twitter social integration is then included to allow users to tweet it.",
+  "reactNative-1": "This is a dual language app for finding nearest Taxi online, using Google map APIs, including chat and notification functionality",
+  "reactNative-2": "Driver side online car renting dual language app, using Google map APIs, including chat and notification functionality"
 }

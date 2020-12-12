@@ -9,6 +9,7 @@ import Jquery from "../components/projects/jquery";
 import ReactRedux from "../components/projects/reactredux";
 import { useRouter } from "next/router";
 import { withTranslation } from "../i18n";
+import ReactNative from "../components/projects/reactNative";
 
 function ControlledTabs({ t }) {
   const router = useRouter();
@@ -20,6 +21,12 @@ function ControlledTabs({ t }) {
       <Tabs id="control" activeKey={key} onSelect={(k) => setKey(k)}>
         <Tab eventKey="MERN" title="MERN">
           <Mern mern1={t("mern-1")} mern2={t("mern-2")} />
+        </Tab>
+        <Tab eventKey="React-Native" title="React-Native">
+          <ReactNative
+            reactNative1={t("reactNative-1")}
+            reactNative2={t("reactNative-2")}
+          />
         </Tab>
         <Tab eventKey="Next.js" title="Next.js">
           <Nextjs next1={t("next-1")} next2={t("next-2")} />

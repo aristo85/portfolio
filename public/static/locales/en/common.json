@@ -7,5 +7,8 @@
   "jquery": "Sample projects created with jQuery JavaScript Library",
   "d3": " Using D3 JavaScript library for visualizing data with HTML, SVG, and CSS.",
   "message": "If you like my work and have project Idea to work on, just send me direct message! or get in touch through social sites listed below.",
-  "contacts": "Contacts"
+  "contacts": "Contacts",
+  "reactNative": "Using React's framework with native platform to develop applications for Android and iOS.",
+  "error-with-status": "A {{statusCode}} error occurred on server",
+  "error-without-status": "An error occurred on the server"
 }

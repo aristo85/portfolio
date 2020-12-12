@@ -10,6 +10,11 @@ function Index({ title }) {
       bgimg: "/mern.jpg",
     },
     {
+      title: "React Native",
+      info: "reactNative",
+      bgimg: "/reactNative.png",
+    },
+    {
       title: "Next.js",
       info: "nextjs",
       bgimg: "/Nextjs.jpg",
