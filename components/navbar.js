@@ -20,7 +20,7 @@ const NavBar = ({ t }) => {
 
   return (
     <div className="stickIt">
-      <Navbar color="dark" dark expand="sm">
+      <Navbar color="dark" dark expand="sm" style={{paddingLeft: 25}}>
         <NavbarBrand href="/">{t("portfolio")}</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

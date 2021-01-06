@@ -7,6 +7,7 @@ import Projects from "../components/projects/homefeature/projects";
 import Contact from "../components/contacts";
 import { onStars } from "../library/utils/starsBG";
 import { withTranslation } from "../i18n";
+import Container from "reactstrap/lib/Container";
 
 const technologies =
   "HTML/CSS | Bootstrap | JavaScript | React | React Native | Redux | MongoDB | Node/Express | Jquery | D3.js";
@@ -21,10 +22,13 @@ function Home({ t }) {
   return (
     <div>
       {stars}
+
       <Hero>
         <Col className="text-center">
           <img src="/cover.jpg" alt="avatar" className="avatar-img mt-5" />
-          <Banner title={t("h1")} subtitle={technologies} />
+          <Container>
+            <Banner title={t("h1")} subtitle={technologies} />
+          </Container>
         </Col>
       </Hero>
       <Projects title={t("projects")} />

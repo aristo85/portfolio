@@ -17,7 +17,7 @@ function ControlledTabs({ t }) {
   const [key, setKey] = useState(tabName);
 
   return (
-    <div style={{ marginTop: "8vh" }}>
+    <div style={{ marginTop: "8vh", paddingLeft: "1%" }}>
       <Tabs id="control" activeKey={key} onSelect={(k) => setKey(k)}>
         <Tab eventKey="MERN" title="MERN">
           <Mern mern1={t("mern-1")} mern2={t("mern-2")} />
