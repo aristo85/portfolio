@@ -101,25 +101,7 @@ body {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
-@media screen and (min-width: 576px) {
-    .banner {
-        padding: 2rem 3rem;
-    }
-    .banner h1 {
-        font-size: 3rem;
-    }
-}
-@media screen and (min-width: 992px) {
-    .banner {
-        padding: 2rem 6rem;
-    }
-    .banner h1 {
-        font-size: 4rem;
-    }
-    .social {
-        font-size: 3vmax;
-    }
-}
+
 /* End of Banner */
 /* Title */
 .section-title {
@@ -318,4 +300,23 @@ body {
         text-align: start;
     }
 
+}
+@media screen and (min-width: 576px) {
+    .banner {
+        padding: 2rem 3rem;
+    }
+    .banner h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .banner {
+        padding: 2rem 6rem;
+    }
+    .banner h1 {
+        font-size: 4rem;
+    }
+    .contact-layout p{
+        font-size: 2rem;
+    }
 }
