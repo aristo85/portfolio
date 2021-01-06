@@ -116,6 +116,9 @@ body {
     .banner h1 {
         font-size: 4rem;
     }
+    .social {
+        font-size: 3vmax;
+    }
 }
 /* End of Banner */
 /* Title */
