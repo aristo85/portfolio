@@ -45,8 +45,6 @@ const Contact = ({ t }) => {
             </div>
           </Col>
           <Col>
-          <Container>
-
             <h2>{t("contactMe")}</h2>
             <ListGroup className="contact-i">
               <ListGroupItem className="border-0 mr-auto">
@@ -80,7 +78,6 @@ const Contact = ({ t }) => {
                 </Row>
               </ListGroupItem>
             </ListGroup>
-          </Container>
           </Col>
         </Row>
       </Container>
